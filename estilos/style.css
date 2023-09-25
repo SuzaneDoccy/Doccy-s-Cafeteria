@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+/* Importações das fontes */
+
+@font-face {
+    font-family: 'Coffe_cat';
+    src: url('fontes/CatCafe.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Coffe';
+    src: url('fontes/cafe\ brewery\ bold\ italic.ttf') format('truetype');
+}
+
+/* Configurações do Corpo */
+
+body{
+    background-image: url("cafeteria.jpg");
+    background-attachment: scroll;
+    background-color: black;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+#titulo{
+    background-color: #ebc09a;
+    font-family: 'coffe_cat', Courier, monospace;
+    color: #613109cc;
+    text-align: center;
+    text-shadow: 2px 2px 8px #6b3809cb;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 3em;
+    border-radius: 30px;
+    border: rgba(0, 0, 0, 0.651);
+}
+h2{
+    font-family: 'Coffe', Courier, monospace;
+    color: #331201;
+}
+
+/* Menu da Cafeteria */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Configurações do cabeçalho */
+
+header{
+    background-color: transparent;
+}
+
+img#coffetopo{
+    width: 200px; 
+    padding-left: 50px;
+    float: right;
+}
+
+.btn-cabecalho{
+    background-color: #ebc09a;
+    font-family: 'Coffe_cat', Courier, monospace;
+    font-size: 1.2em;
+    color: #613109cc;
+    cursor:pointer;
+    text-align: center;
+    padding: 8px 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 2px 3px 4px #60484a;
+    width: 200px;
+    font-weight: bolder;
+}
+.btn-cabecalho:hover{
+    background-color: #613109cc;
+    color: #ebc09a;
+}
+nav{
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+/* Configurações do Main */
+
+main{
+    width: 60%;
+    margin: auto;
+    padding-left: 20px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    background-color: #ebc09a;
+    border: 4px solid black;
+    box-shadow: 
+    15px 15px 0 -4px #b9875bd8, 
+    15px 15px rgba(0, 0, 0, 0.651);
+}
+main li{
+    margin-bottom: 30px;
+}
+h2{
+    text-shadow: 2px 3px 4px #6d3f04c4;
+    font-size: xx-large; 
+    text-indent: 70px;
+}
+p{
+    width:98%;
+    font-size: 1.2em;
+    text-indent: 30px;
+    text-align: justify;
+
+}
+p > a{
+    color: rgb(253, 59, 25);
+    font-size: larger;
+    text-decoration: none;
+}
+p > a:hover{
+    transition-duration: 10s;
+    color: rgb(255, 38, 0);
+    text-decoration: line-through;
+}
+main img{
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+}
+footer p{
+    text-align: center;
+}
