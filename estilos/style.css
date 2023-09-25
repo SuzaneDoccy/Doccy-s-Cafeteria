@@ -14,12 +14,9 @@
 /* Configurações do Corpo */
 
 body{
-    background-image: url("cafeteria.jpg");
-    background-attachment: scroll;
-    background-color: black;
-    background-position: center center;
+    background-image: url("../imagens/fundo_coffe.jpg");
+    background-attachment: fixed;
     background-size: cover;
-    width: 100%;
 }
 #titulo{
     background-color: #ebc09a;
@@ -134,6 +131,12 @@ main img{
     margin-left: auto;
     margin-right:auto ;
 }
+
+/* Configurações do Rodapé */
+
 footer p{
     text-align: center;
+    color: aliceblue;
+    background-color: #331201a1;
+    border-radius: 50%;
 }
